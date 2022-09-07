@@ -58,7 +58,7 @@
 							<ul>
 								<li class="nbl-item">New York City, born and raised.</li>
 								<li class="nbl-item">Software engineer, passionate teacher, philosophy graduate.</li>
-								<li class="nbl-item">Insatiably curious; tech, history, and economic podcasts are how I unwind.</li>
+								<li class="nbl-item">Insatiably curious; I unwind with good tech, history, and economic podcasts.</li>
 								<li class="nbl-item">Never satisfied until I know 'hows' and 'whys'.</li>
 								<li class="nbl-item">Favorite quote is, "It's better to <em>get</em> it right than to <em>be</em> right."</li>
 							</ul>
@@ -219,53 +219,8 @@
             <header class="major">
               <h2>Get in touch</h2>
             </header>
-            <form method="post" action="#">
-              <div class="row gtr-uniform">
-                <div class="col-6 col-12-xsmall">
-                  <input type="text" name="name" id="name" placeholder="Name" />
-                </div>
-                <div class="col-6 col-12-xsmall">
-                  <input
-                    type="email"
-                    name="email"
-                    id="email"
-                    placeholder="Email"
-                  />
-                </div>
-                <div class="col-12">
-                  <textarea
-                    name="message"
-                    id="message"
-                    placeholder="Message"
-                    rows="4"
-                  ></textarea>
-                </div>
-                <div class="col-6 col-12-small">
-                  <input type="checkbox" id="demo-copy" name="demo-copy" />
-                  <label for="demo-copy">Email me a copy</label>
-                </div>
-                <div class="col-6 col-12-small">
-                  <input
-                    type="checkbox"
-                    id="demo-human"
-                    name="demo-human"
-                    required
-                  />
-                  <label for="demo-human">Not a 💻</label>
-                </div>
-                <div class="col-12">
-                  <ul class="actions special">
-                    <li>
-                      <input
-                        type="submit"
-                        value="Send Message"
-                        class="primary"
-                      />
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </form>
+            <a href="mailto:inquiries@james-boyette.com">inquiries@james-boyette.com</a>
+            
           </div>
 					<footer>
 						<ul class="copyright">
@@ -285,5 +240,26 @@
     <script src="assets/js/breakpoints.min.js"></script>
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
+    <!-- <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+    <script>
+      function sendEmail(){
+        console.log("details:", {
+          From : document.getElementById("email").value,
+          Subject : document.getElementById("subject").value,
+          Body : document.getElementById("message").value
+        });
+        Email.send({
+          SecureToken: "968d70e2-597f-49cb-a250-c731c23db774",
+          To : 'inquiries@james-boyette.com',
+          From : document.getElementById("email").value,
+          Subject : document.getElementById("subject").value,
+          Body : document.getElementById("message").value
+        }).then(
+          message => alert(message)
+        );
+      }
+    </script> -->
+    
   </body>
 </html>

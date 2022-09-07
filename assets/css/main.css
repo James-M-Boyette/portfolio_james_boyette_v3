@@ -181,8 +181,7 @@ html {
   background-attachment: fixed, fixed;
   /* background-image: url("images/overlay.png"), url("../../images/intro_01.jpg"); */
   /* background-image: url("images/overlay.png"), url("../../images/tech_01.jpg"); */
-  background-image: url("images/overlay.png"),
-    url("../../images/tech_07d_4x.jpg");
+  background-image: url("images/overlay.png"), url("../../images/tech_07.jpg");
   background-position: top left, center center;
   background-repeat: repeat, none;
   background-size: auto, cover;
@@ -245,6 +244,14 @@ a:hover {
   border-bottom-color: transparent !important;
   color: var(--bright-orange-2) !important;
   text-decoration: none;
+}
+
+a[href*="mailto"] {
+  color: var(--dark-orange);
+  /* box-shadow: inset 0px 15px 20px rgba(214, 98, 43, 0.4) !important; */
+  /* background: #ececec23;
+  border-radius: 3px solid #f6f6f613; */
+  font-size: larger;
 }
 
 strong,
